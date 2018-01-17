@@ -1,0 +1,13 @@
+Sub RemoveShProtect()
+Sheet1.Protect AllowFiltering:=True
+Sheet1.Unprotect
+Sheet2.Protect AllowFiltering:=True
+Sheet2.Unprotect
+Sheet3.Protect AllowFiltering:=True
+Sheet3.Unprotect
+Sheet4.Protect AllowFiltering:=True
+Sheet4.Unprotect
+Sheet5.Protect AllowFiltering:=True
+Sheet5.Unprotect
+End Sub
+#有几个表加几个，或者可以寻找更好的办法
